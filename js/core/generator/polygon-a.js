@@ -6,7 +6,7 @@ class PolygonA {
     this.y = props.y
 
     // Private
-    this.radius = 120
+    this.radius = 100
     this.points = []
   }
 

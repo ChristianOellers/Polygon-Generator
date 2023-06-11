@@ -1,4 +1,4 @@
-![Polygon Generator](teaser.png)
+[![Polygon Generator](teaser.png)](https://christianoellers.github.io/Polygon-Generator)
 
 # Polygon Generator – Canvas
 
