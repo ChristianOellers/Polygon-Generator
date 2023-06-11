@@ -1,0 +1,29 @@
+{
+  "name": "polygon-generator",
+  "description": "2D canvas polygon shape generator",
+  "author": "Christian Oellers",
+  "license": "MIT",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "npx serve 'src'",
+    "lint:scss": "npx stylelint 'src/**/*.css'",
+    "prettier:check": "prettier --check \"**/*.{js,css,scss}\"",
+    "prettier:clean": "prettier --write \"**/*.{js,css,scss}\"",
+    "project:clean": "rm -rf node_modules"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "eslint": "^7.2.0",
+    "eslint-config-airbnb": "^18.2.0",
+    "eslint-config-prettier": "^6.14.0",
+    "eslint-plugin-prettier": "^3.1.4",
+    "htmlhint": "^0.14.1",
+    "prettier": "^2.1.2",
+    "prettier-eslint": "^11.0.0",
+    "serve": "^11.3.2",
+    "stylelint": "^13.6.1",
+    "stylelint-config-prettier": "^8.0.2",
+    "stylelint-config-standard": "^20.0.0"
+  }
+}
